@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/6e6da5b9e4.js" crossorigin="anonymous"></script>
     <title>Final projects</title>
 </head>
 <body>
     <!--menu-->
-
-
     <menu class="all-padding" id="top">
         <div class="navbar-link">
             <a href="#" >
@@ -157,6 +156,25 @@
         </div>
     </section>
     <!--end oftop movie-->
+
+    <!--Imdb top 250-->
+    <div class="album py-5  ">
+        <div class="container ">
+
+            <div class="spinner-border m-auto d-block" style="width: 3rem; height: 3rem;" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <h2 class="text-white fw-bold my-3">250 فیلم برتر IMDB</h2>
+            <div class="pageNumberDiv"></div>
+            <div id="moviesList" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            </div>
+
+            <nav class="mt-4" aria-label="Page navigation example">
+                <ul class="pagination"></ul>
+            </nav>
+        </div>
+    </div>
+    <!--end Imdb top 250-->
 
     <footer class="all-padding">
         <div class="footer-first-row">

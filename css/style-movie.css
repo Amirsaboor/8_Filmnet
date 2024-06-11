@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1c1c1c;
+}
+.movie-part{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    display: flex;
+    justify-content:center;
+}
+.movie-box{
+    margin-top: 30%;
+
+}
